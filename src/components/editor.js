@@ -19,7 +19,7 @@ class Editor extends React.Component {
     }
     const textareaStyle = {
       'grid-column': 1,
-      height: '100vh'
+      'box-sizing': 'border-box'
     }
     const displayStyle = {
       'grid-column': 2
