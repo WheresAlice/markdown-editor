@@ -13,16 +13,16 @@ class Editor extends React.Component {
   render() {
     const wrapperStyle = {
       display: 'grid',
-      'grid-template-columns': 'repeat(2, 1fr)',
-    'grid-gap': '10px',
-    'grid-auto-rows': 'minmax(100px, auto)'
+      gridTemplateColumns: 'repeat(2, 1fr)',
+    gridGap: '10px',
+    gridAutoRows: 'minmax(100px, auto)'
     }
     const textareaStyle = {
-      'grid-column': 1,
-      'box-sizing': 'border-box'
+      gridColumn: 1,
+      boxSizing: 'border-box'
     }
     const displayStyle = {
-      'grid-column': 2
+      gridColumn: 2
     }
     return (
       <div style={wrapperStyle}>
