@@ -7,6 +7,7 @@ const IndexPage = () => (
   <div>
     <h1>Hi people</h1>
     <p>Welcome to <a href="/editor">Alice's Markdown Editor</a>.  This is very much still under construction.</p>
+    <p><a href="https://github.com/WheresAlice/markdown-editor">See the source code</a></p>
   </div>
 )
 

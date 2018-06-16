@@ -7,6 +7,7 @@ class EditorPage extends Component {
       <div>
         <p>Put some Markdown in the box on the left, get some html rendered on the right.</p>
         <Editor/>
+        <p><a href="https://github.com/WheresAlice/markdown-editor">See the source code</a></p>
       </div>
 
     );
